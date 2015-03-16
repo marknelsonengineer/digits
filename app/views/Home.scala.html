@@ -1,10 +1,28 @@
 @(message: String)
 
-@Main("Home") {
-
+@Main("Digits") {
   @MainNavbar("Home")
+
   <div class="container">
-    <p>The home page.</p>
+
+    <h1>Current Contacts</h1>
+
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th>First</th><th>Last</th><th>Phone</th>
+      </tr>
+      <tr>
+        <td>Lorem</td><td>ipsum</td><td>808.111.1212</td>
+      </tr>
+      <tr>
+        <td>sit</td><td>amet</td><td>808.222.1212</td>
+      </tr>
+      <tr>
+        <td>consectetur</td><td>adipiscing</td><td>808.333.1212</td>
+      </tr>
+    </table>
+
     <p>Status:  @message</p>
+
   </div>
 }

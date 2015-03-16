@@ -3,7 +3,6 @@
  */
 
 body {
-  padding-top: 70px; /* Move body of page below the Bootstrap navbar. */
 }
 
 .navbar-nav > li.active {
@@ -14,4 +13,12 @@ body {
   background-color: rgb(10, 12, 12 );
   height: 2px;
   width: 22px;
+}
+
+img.heading-logo-size {
+  height: 150px;
+}
+
+div#heading-logo {
+  background-color: black;
 }
